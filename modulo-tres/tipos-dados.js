@@ -58,3 +58,19 @@ const x = { nome: null }
 
 console.log(JSON.stringify(x));
 
+
+const id = 10;
+
+console.log("<div id=\"10\"teste</div>");
+console.log('<div id="10">teste</div>');
+
+console.log('<div id="' + id +'">teste</div>');
+
+console.log(`<div id="${id}">teste</div>`);
+
+
+const y = Symbol('10');
+const z = Symbol('10');
+
+console.log(y == z);
+
